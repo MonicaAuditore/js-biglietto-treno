@@ -60,10 +60,10 @@ else {
 }
 
 // 7. Collego i dati, n° km e costo totale, alla pagina htlm
-document.getElementById("km").innerHTML = numeroKilometri;
+document.getElementById("km").innerHTML = numeroKilometri + "Km";
 document.getElementById("totale").innerHTML = costoBiglietto;
 
-//8. Calcolo e scrivo, anche in html, lo sconto applicato per ogni categoria di utente (minorenne, maggiorenne, over 65)
+//8. Calcolo e scrivo, anche in html, lo sconto applicato per ogni categoria di utente (minorenne, maggiorenne, over 65);
 if (etaUtente <= 17) {
   document.getElementById("sconto").innerHTML = "20%";
 } else if (etaUtente >= 65) {
