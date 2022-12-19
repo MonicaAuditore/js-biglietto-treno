@@ -9,9 +9,10 @@ body {
 }
 
 .dati {
-  background-color: #d3f9d3;
+  background-color: #e9ffe9;
   border-radius: 70px;
   padding: 80px 0px;
+  border: 2px dashed #9f9f9f;
 }
 
 .imgTreno {
