@@ -9,6 +9,7 @@
 0 ----- 18 ------ 65 ------
 */
 
+// Variabili
 let numeroKilometri;
 let etaUtente;
 let costoBiglietto;
@@ -53,3 +54,5 @@ else {
   );
   console.log(costoBiglietto);
 }
+
+// Fine
