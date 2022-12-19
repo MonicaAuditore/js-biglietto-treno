@@ -55,8 +55,17 @@ else {
   console.log("Costo del biglietto senza sconti", costoBiglietto);
 }
 
-// 7. Collego i dati alla pagina htlm
+// 7. Collego i dati, n° km e costo totale, alla pagina htlm
 document.getElementById("km").innerHTML = numeroKilometri;
 document.getElementById("totale").innerHTML = costoBiglietto;
+
+//8. Calcolo e scivo anche in html, lo sconto applicato per ogni categoria di utente (minorenne, maggiorenne, over 65)
+if (etaUtente <= 17) {
+  document.getElementById("sconto").innerHTML = "20%";
+} else if (etaUtente >= 65) {
+  document.getElementById("sconto").innerHTML = "40%";
+} else {
+  document.getElementById("sconto").innerHTML = "Nessuno";
+}
 
 // Fine
