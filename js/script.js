@@ -1,4 +1,5 @@
-/*Calcolo del prezzo del biglietto del treno
+/*
+Calcolo del prezzo del biglietto del treno
 
 1. Chiedere all'utente il numero di chilometri da percorrere;
 2. chiedere all'utente l'età;
@@ -7,6 +8,9 @@
 5. calcolare se l'utente è over 65: ovvero se la sua età è >= 65 e se è over 65 applicare lo sconto del 40% altrimenti no; Mostrare il costo finale con 2 decimali;
 6. se l'utente non è ne minorenne ne maggiorenne il costo del biglietto resta invariato; Mostrare il costo finale con 2 decimali;
 0 ----- 18 ------ 65 ------
+
+// 7. Collego i dati, n° km e costo totale, alla pagina htlm
+//8. Calcolo e scivo anche in html, lo sconto applicato per ogni categoria di utente (minorenne, maggiorenne, over 65)
 */
 
 // Variabili
