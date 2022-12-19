@@ -47,7 +47,6 @@ else if (etaUtente >= 65) {
 
 // 6. se l'utente non è ne minorenne ne maggiorenne il costo del biglietto resta invariato; Mostrare il costo;
 else {
-  costoBiglietto = costoBiglietto;
   costoBiglietto = prompt(
     "Il costo del tuo biglietto è: ",
     costoBiglietto + " €"
