@@ -32,7 +32,7 @@ console.log("Costo del biglietto senza sconti", costoBiglietto);
 
 // 4. calcolare se l'utente è minorenne; ovvero se la sua età è <= a 17 e se è minorenne applicare lo sconto del 20% altrimenti no; Mostrare il costo finale con 2 decimali;
 if (etaUtente <= 17) {
-  costoBiglietto = ((costoBiglietto * 20) / 100).toFixed(2);
+  costoBiglietto = (costoBiglietto - (costoBiglietto * 20) / 100).toFixed(2);
   costoBiglietto = prompt(
     "Sei minorenne, hai uno sconto del 20%, il costo del tuo biglietto è: ",
     costoBiglietto + "€"
@@ -42,7 +42,7 @@ if (etaUtente <= 17) {
 
 // 5. calcolare se l'utente è over 65: ovvero se la sua età è >= 65 e se è over 65 applicare lo sconto del 40% altrimenti no; Mostrare il costo finale con 2 decimali;
 else if (etaUtente >= 65) {
-  costoBiglietto = ((costoBiglietto * 40) / 100).toFixed(2);
+  costoBiglietto = (costoBiglietto - (costoBiglietto * 40) / 100).toFixed(2);
   costoBiglietto = prompt(
     "Sei over 65, hai uno sconto del 40%, il costo del tuo biglietto è: ",
     costoBiglietto + "€"
