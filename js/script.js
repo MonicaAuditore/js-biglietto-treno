@@ -10,7 +10,7 @@ Calcolo del prezzo del biglietto del treno
 0 ----- 18 ------ 65 ------
 
 // 7. Collego i dati, n° km e costo totale, alla pagina htlm
-//8. Calcolo e scivo anche in html, lo sconto applicato per ogni categoria di utente (minorenne, maggiorenne, over 65)
+//8. Calcolo e scrivo, anche in html, lo sconto applicato per ogni categoria di utente (minorenne, maggiorenne, over 65)
 */
 
 // Variabili
@@ -63,7 +63,7 @@ else {
 document.getElementById("km").innerHTML = numeroKilometri;
 document.getElementById("totale").innerHTML = costoBiglietto;
 
-//8. Calcolo e scivo anche in html, lo sconto applicato per ogni categoria di utente (minorenne, maggiorenne, over 65)
+//8. Calcolo e scrivo, anche in html, lo sconto applicato per ogni categoria di utente (minorenne, maggiorenne, over 65)
 if (etaUtente <= 17) {
   document.getElementById("sconto").innerHTML = "20%";
 } else if (etaUtente >= 65) {
