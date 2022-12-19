@@ -55,4 +55,8 @@ else {
   console.log("Costo del biglietto senza sconti", costoBiglietto);
 }
 
+// 7. Collego i dati alla pagina htlm
+document.getElementById("km").innerHTML = numeroKilometri;
+document.getElementById("totale").innerHTML = costoBiglietto;
+
 // Fine
