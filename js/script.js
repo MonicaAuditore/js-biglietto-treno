@@ -9,7 +9,7 @@ Calcolo del prezzo del biglietto del treno
 6. se l'utente non è ne minorenne ne maggiorenne il costo del biglietto resta invariato; Mostrare il costo finale con 2 decimali;
 0 ----- 18 ------ 65 ------
 
-7. Collego i dati, n° km e costo totale, alla pagina htlm
+7. Collego i dati, n° km e costo totale, alla pagina htlm;
 8. Calcolo e scrivo, anche in html, lo sconto applicato per ogni categoria di utente (minorenne, maggiorenne, over 65);
 */
 
