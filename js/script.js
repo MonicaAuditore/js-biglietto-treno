@@ -50,7 +50,7 @@ else if (etaUtente >= 65) {
   console.log("Costo del biglietto scontato del 40%", costoBiglietto);
 }
 
-// 6. se l'utente non è ne minorenne ne maggiorenne il costo del biglietto resta invariato; Mostrare il costo finale con 2 decimali;
+// 6. se l'utente non è ne minorenne ne over 6520 il costo del biglietto resta invariato; Mostrare il costo finale con 2 decimali;
 else {
   costoBiglietto = prompt(
     "Il costo del tuo biglietto è: ",
